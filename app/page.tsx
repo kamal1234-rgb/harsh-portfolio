@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Component1 from "./component1";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
             Documentation
           </a>
         </div> */}
+        <Component1></Component1>
       </main>
     </div>
   );
